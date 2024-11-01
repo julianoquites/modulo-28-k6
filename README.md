@@ -1,1 +1,1 @@
-# modulo-28-k6
+# Exercício Módulo 28 - Testes de  Performance com k6
