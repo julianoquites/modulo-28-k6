@@ -76,8 +76,7 @@ export default class Products {
       },
     };
 
-    // Chame http.del sem um corpo ou com um objeto vazio como segundo parâmetro
-    let response = http.del(url, {}, params); // O corpo é um objeto vazio
+    let response = http.del(url, {}, params);
 
     check(response, { "status deve ser 200": (r) => r.status === 200 });
 
